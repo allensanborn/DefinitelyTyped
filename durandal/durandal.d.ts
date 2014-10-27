@@ -539,7 +539,7 @@ declare module 'durandal/composition' {
     /**
      * Represents the currently executing composition transaction.
      */
-    export var current: CompositionCompositionTransaction;
+    export var current: CompositionTransaction;
 
     /**
      * Registers a binding handler that will be invoked when the current composition transaction is complete.
